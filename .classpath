@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.1.0.BUILD-SNAPSHOT/d9d273a615a07881895a0e52fe8b344f525a119f/spring-cloud-starter-eureka-1.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.1.0.BUILD-SNAPSHOT/156b95ca5f1b2631471af04e26db5fec7b70448c/spring-cloud-starter-eureka-1.1.0.BUILD-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.3.2.RELEASE/3b9393993d1267822157decea023859ae1e4dfb8/spring-boot-starter-web-1.3.2.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.3.2.RELEASE/11876c0f2e6c9b00530e919f915d0ff6f665f7bc/spring-boot-starter-web-1.3.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.3.2.RELEASE/120a7389e341af257d8018f090fa844350e6eeb5/spring-boot-starter-actuator-1.3.2.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.3.2.RELEASE/3b15d341263824d27b2f5377832027bef8f5c016/spring-boot-starter-actuator-1.3.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.0.29.Final/36fe05c138791a185a05590325ca3a77a85b42bb/netty-transport-native-epoll-4.0.29.Final-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.0.29.Final/5144ae9323634cfbc2015829a442dbbba6fa3f6e/netty-transport-native-epoll-4.0.29.Final-linux-x86_64.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.3.2.RELEASE/bc0de996c28186223d4bee65348112c6370581ff/spring-boot-starter-logging-1.3.2.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.3.2.RELEASE/f45580c295d3d340b6af23562fa034d48cef085a/spring-boot-starter-logging-1.3.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-zuul/1.1.0.BUILD-SNAPSHOT/eeb7ce6aa582d974d38250e83878d5d2792a6080/spring-cloud-starter-zuul-1.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-zuul/1.1.0.BUILD-SNAPSHOT/7ff33fd61c44ba8b6f690304d0ad523ff3c11158/spring-cloud-starter-zuul-1.1.0.BUILD-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/2.4.0/6524161b7269296f22007a980b41f6b69893a869/springfox-swagger2-2.4.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger2/2.4.0/c6919bdec913eb5e8204a7757cf86f34201f6aac/springfox-swagger2-2.4.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.4.0/df631df1d70910a8b8e5a70db9a3372128a6a43f/springfox-swagger-ui-2.4.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger-ui/2.4.0/1205fbe70fbbcf6c87b3059a45772e56d8ce6615/springfox-swagger-ui-2.4.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.3.2.RELEASE/8c0628033ec2513f0e6dd24d67044056d938a312/spring-boot-starter-test-1.3.2.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.3.2.RELEASE/56435b01ff480982fd0670a321c85cae6978973e/spring-boot-starter-test-1.3.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/1.1.0.BUILD-SNAPSHOT/de34872b4e52ed83478218a567f0d01a51b59eeb/spring-cloud-starter-1.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/1.1.0.BUILD-SNAPSHOT/95e3db3983251298eca36a1e35eab54159d3c5d8/spring-cloud-starter-1.1.0.BUILD-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.1.0.BUILD-SNAPSHOT/2ab3d000bb614b33d951faae61df0819e23e16c/spring-cloud-netflix-core-1.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.1.0.BUILD-SNAPSHOT/a57febd284977348223b5de5810d65a43f3ddf76/spring-cloud-netflix-core-1.1.0.BUILD-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/1.1.0.BUILD-SNAPSHOT/726a36ed733f5fbdc18dd8c16bb3099289fb0e7b/spring-cloud-netflix-eureka-client-1.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/1.1.0.BUILD-SNAPSHOT/7d1c0366fd6ffc7c8ac7f040c50271b0e98bfa1/spring-cloud-netflix-eureka-client-1.1.0.BUILD-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-client/1.4.2/de644d1473df84a13df69be6203464a91e33a1f8/eureka-client-1.4.2-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-client/1.4.2/d93b137554ec153c3e711dc7fc6bb0fef82e18a7/eureka-client-1.4.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-core/1.4.2/a75a5cacb3dd31f4140f0fb6a4b91182b5b5c8ed/eureka-core-1.4.2-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-core/1.4.2/ed42b63a8690d1de797e315818794163a5a97619/eureka-core-1.4.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-archaius/1.1.0.BUILD-SNAPSHOT/1ea35792963e0787311df5e2c769a1604e7da674/spring-cloud-starter-archaius-1.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-archaius/1.1.0.BUILD-SNAPSHOT/6b42b6cbb3613bda193386c89588c130a9cb5288/spring-cloud-starter-archaius-1.1.0.BUILD-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-ribbon/1.1.0.BUILD-SNAPSHOT/7a5c8fbfb59ad5efdbd19994f4a26494f822d283/spring-cloud-starter-ribbon-1.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-ribbon/1.1.0.BUILD-SNAPSHOT/2dda8f99d0788d8a77dfedfda55fc100ffd3a4ba/spring-cloud-starter-ribbon-1.1.0.BUILD-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-eureka/2.1.0/81b1abd10e46b5fbaa4f95d2c065d62248ac7d90/ribbon-eureka-2.1.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-eureka/2.1.0/3f6e3b5baae9a884d823569d37dfb0cc46c5cc25/ribbon-eureka-2.1.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.2/3ffcab5525deb05ef41765f9b3ca13e81c0243d7/xstream-1.4.2-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.2/97e5013f391487cce4de6b0eebcde21549e91872/xstream-1.4.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.3.2.RELEASE/7931203fa2b9c7c9d19e3b6ec8f4a55292e90d6f/spring-boot-starter-1.3.2.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.3.2.RELEASE/bf98e5da17df2f2c1a7b099631de0f53b663e57f/spring-boot-starter-1.3.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.3.2.RELEASE/b6fdac1387ed31d3c97d86cbb92d964f706b512d/spring-boot-starter-tomcat-1.3.2.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.3.2.RELEASE/cd57af767a29484de124b8ed46ae82d974cc6901/spring-boot-starter-tomcat-1.3.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.3.2.RELEASE/db66362d0115faf5b5ee92746a722d9fa242f0df/spring-boot-starter-validation-1.3.2.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.3.2.RELEASE/89cf677b97e59ed6a4b5e00350aa2b294fe04e33/spring-boot-starter-validation-1.3.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.5/8176652b0ade481ff1ceb1bec03c70e2eb6f1c37/jackson-databind-2.6.5-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.5/d50be1723a09befd903887099ff2014ea9020333/jackson-databind-2.6.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.5.RELEASE/6d6268e82b35921d9daf4cfda9a2f1bd99afd87a/spring-web-4.2.5.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.5.RELEASE/49cd2430884b77172aa81e3fc33ef668ea1dab30/spring-web-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.5.RELEASE/4defda95bd56638dee17b63637f50dc8be771283/spring-webmvc-4.2.5.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.5.RELEASE/cf463cce3e4453eb4b9a69de2dcdfd60c3c57e0/spring-webmvc-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.3.2.RELEASE/924ad33b39ac950a58fe60f7a8b8eff754578e24/spring-boot-actuator-1.3.2.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.3.2.RELEASE/45b1026dc7256472b8553f030bbad72a8966c393/spring-boot-actuator-1.3.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.0.29.Final/5dfe73936bcd6404e19aa71d64ea936f8b1c7d17/netty-common-4.0.29.Final-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.0.29.Final/6a7f9da067c90459e6482de623861187f6ee8723/netty-common-4.0.29.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.0.29.Final/699c5e5791df0f995b90c9ce9c2c4cca5d63023d/netty-buffer-4.0.29.Final-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.0.29.Final/86ae051d81718791a0ad0c90a3a412d25028273b/netty-buffer-4.0.29.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.0.29.Final/6cf6f9492a7a496d2f00536e0f7fea392693b5ef/netty-transport-4.0.29.Final-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.0.29.Final/31481ea9a8447f5ccf875428ed5506727e3fd0c2/netty-transport-4.0.29.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.3/f4915df0360e7529c61f9e78ef3a06c19238e62e/logback-classic-1.1.3-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.3/d90276fff414f06cb375f2057f6778cd63c6082f/logback-classic-1.1.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.13/988decf2bd4133c233f1e63f0da7368ee78c6405/jcl-over-slf4j-1.7.13-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.13/d78d2242e14e4182625152d225f76ae52b43491d/jcl-over-slf4j-1.7.13.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.13/82c0b8827ff637d6d15abf9bcc4a26c55a6cb4ce/jul-to-slf4j-1.7.13-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.13/43759e986de5fec7045e35e9533e5ad2f6cd1b05/jul-to-slf4j-1.7.13.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.13/5cab642de2658baebc2ceb416e28995996bea680/log4j-over-slf4j-1.7.13-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.13/b5f4685073a6ffba6bf7e1d51e2b5fb83bdfa953/log4j-over-slf4j-1.7.13.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-hystrix/1.1.0.BUILD-SNAPSHOT/d8193bf805d61cb0710c6fed77cd23e18c2c2661/spring-cloud-starter-hystrix-1.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-hystrix/1.1.0.BUILD-SNAPSHOT/cc98236790978b8d894783047d068fd541abb69e/spring-cloud-starter-hystrix-1.1.0.BUILD-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.1.0/5a679a4279d1a582e9515c0b32536a7ffdf361ea/zuul-core-1.1.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.1.0/3b863d43ccc5fd84890418bc61f6cccdb53569e5/zuul-core-1.1.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.6/5bd9a6d91db0fd930eeffeb81563fa2f0a7c18a8/swagger-annotations-1.5.6-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.6/feb5c3bbf4d4c16b24bcccef23d234451e95abf3/swagger-annotations-1.5.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-models/1.5.6/2b18b8ca9f00878419d7118327b2854f2c8b18/swagger-models-1.5.6-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-models/1.5.6/e5c36321b8bbd1e4f10858b5ceededdeeb4844e1/swagger-models-1.5.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spi/2.4.0/5a408ccb5e9816ac72a718bd7ab0f57d545a95a6/springfox-spi-2.4.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spi/2.4.0/c822599f794e24f3b9350cde430e848d80032306/springfox-spi-2.4.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-schema/2.4.0/bd37dce307425f0a25da8ce53e8c26df634c66d2/springfox-schema-2.4.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-schema/2.4.0/5ccdc3f47cf6b888bcf8fd2c127a9dc7b68057d7/springfox-schema-2.4.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger-common/2.4.0/6877f229e3aa2134571d998a67bfc49e023847be/springfox-swagger-common-2.4.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-swagger-common/2.4.0/8fe40ed5b97575890c82a04511e57f4c089c9a7b/springfox-swagger-common-2.4.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spring-web/2.4.0/46c9c327f1a54badf683ccdd43716b31547dedd/springfox-spring-web-2.4.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spring-web/2.4.0/3cbfea59cc9eec05f278e68d1cbf85de98bab563/springfox-spring-web-2.4.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.1/9553ee8c29df95f56207662c68a163601b26231e/classmate-1.3.1-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.1/2ad2fd09dcf5607ca96f8ef432096a96986c40a/classmate-1.3.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/96e785df399a4e1a6c030877097807b7e18520cc/slf4j-api-1.7.13-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/7fcf30c25b8f4a9379b9dad0d3f487b25272c026/slf4j-api-1.7.13.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/112d82259202fa909d51cf7ccefae0c5523f1373/spring-plugin-core-1.2.0.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/f380e7760032e7d929184f8ad8a33716b75c0657/spring-plugin-core-1.2.0.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-metadata/1.2.0.RELEASE/6551604dd9c0619bae2f5a244580fa9a0dc646bf/spring-plugin-metadata-1.2.0.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-metadata/1.2.0.RELEASE/97223fc496b6cab31602eedbd4202aa4fff0d44f/spring-plugin-metadata-1.2.0.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/8269667b73d9616600359a9b0ba1b1c7d0cf7a97/mockito-core-1.10.19-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/47a7ee46628ab7133129cd7cef1e92657bc275e/hamcrest-library-1.3-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.4.RELEASE/ac0a24fb3bced1f9c3274793525a74bd8e09e56b/spring-core-4.2.4.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.4.RELEASE/160ccd89230753d4f49477a967f5876b034d9745/spring-core-4.2.4.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.2.5.RELEASE/be3a46bff26f49f65ee16d73a59ed22b7d5e6a34/spring-test-4.2.5.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.2.5.RELEASE/60bd0ac25869d515717284b77644d0416d3a38c5/spring-test-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/1.1.0.BUILD-SNAPSHOT/e568d15561292f9c5427a51198deed46dad79f4f/spring-cloud-context-1.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/1.1.0.BUILD-SNAPSHOT/e0be20e7bf5df8e7ae61d9c3e4afed62f6fb951b/spring-cloud-context-1.1.0.BUILD-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.1.0.BUILD-SNAPSHOT/be92dd80554782ab0cacf7f1649b4b927e5ad4f9/spring-cloud-commons-1.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.1.0.BUILD-SNAPSHOT/a1e4eb28160b6017c4a089da18b5bd5eac5a54be/spring-cloud-commons-1.1.0.BUILD-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.2.RELEASE/cb4d2dc086b754cf2961b7763c4d06f427a86913/spring-boot-1.3.2.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.2.RELEASE/62d0b690a08be593bb0288e0ec93f5bda52be6a/spring-boot-1.3.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.3.2.RELEASE/94747b7298f03658d45fd6da3a99255eed3ab61c/spring-boot-autoconfigure-1.3.2.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.3.2.RELEASE/dbd3d19d62e588b7fd495e8a3071ff076d0f74d5/spring-boot-autoconfigure-1.3.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.3.7/36526db083c7e1916195bf7a76ba0359e2b9ada6/jettison-1.3.7-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.3.7/7d36a59a0577f11b12088b9e215d6860345b9e1d/jettison-1.3.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-eventbus/0.3.0/a942ee54e012e3f73bc940a94e4d4982b7917729/netflix-eventbus-0.3.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-eventbus/0.3.0/3f864adbe81f0849729fcbba3fe693c32be739ea/netflix-eventbus-0.3.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.archaius/archaius-core/0.7.3/2564f3af803523cae3a59c987038a0327472c730/archaius-core-0.7.3-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.archaius/archaius-core/0.7.3/db8b4db4b30f3a3a82e23bd8e8884df2424d2944/archaius-core-0.7.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/javax.ws.rs/jsr311-api/1.1.1/bcc4b7b569ef8bb9b82e48cf23b5aaac29a4fb4e/jsr311-api-1.1.1-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/javax.ws.rs/jsr311-api/1.1.1/59033da2a1afd56af1ac576750a8d0b1830d59e6/jsr311-api-1.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-core/0.10.1/a73c96252b82c586751c187401f87e63e4bc3f87/servo-core-0.10.1-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-core/0.10.1/7461ed61647f9996c88ad822546ffc7851a45e0e/servo-core-0.10.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.19/ff2ba0c5ba49da437b5f0e4a5ad76de2ba801a8f/jersey-core-1.19-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.19/9a0619e2c514a79b610f17cadaae619c0a08d6a6/jersey-core-1.19.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-client/1.19/78dd71997d4c42608d841161a43a347b36aeefa6/jersey-client-1.19-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-client/1.19/6836ee36dba2b3ac1d0ff4733129fba8aba7f963/jersey-client-1.19.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-apache-client4/1.19/723dfb1812c6a7aecf15c289d620f478bb56e364/jersey-apache-client4-1.19-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-apache-client4/1.19/22a5dd073aa8a8695c461ad9375da36b00f1ad20/jersey-apache-client4-1.19.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.1/c0ecd55724129bbd48850314b4ff8a360d670662/httpclient-4.5.1-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.1/7e3cecc566df91338c6c67883b89ddd05a17db43/httpclient-4.5.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/4.0/961359f8352b791c6443a207c847e25d6d3ca7cd/guice-4.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/4.0/f990a43d3725781b6db7cd0acf0a8b62dfd1649/guice-4.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.governator/governator-annotations/1.12.5/265af60c1bd67a7c28dbea6f1ef01063e694e2fc/governator-annotations-1.12.5-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.governator/governator-annotations/1.12.5/265af60c1bd67a7c28dbea6f1ef01063e694e2fc/governator-annotations-1.12.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.5/10394a8b3d8af4885e020e2571a7633f7a0bd741/jackson-annotations-2.6.5-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.5/65137ebf85056473b40c311f889601646a7612ba/jackson-annotations-2.6.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.5/e1466f546b8261fc8c6fd4b47718a73b4005d0aa/jackson-core-2.6.5-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.5/334369d7eff497f358b248c171dac0dd62c68f67/jackson-core-2.6.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.10.30/99391049bb7a0875780659e381a71d1b782a0062/aws-java-sdk-core-1.10.30-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.10.30/b3e80ce1d0d59a1ceab4001221cf8d776e2565e6/aws-java-sdk-core-1.10.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ec2/1.10.30/868c655c97b6d1aac5a89f9f6078de93b8899520/aws-java-sdk-ec2-1.10.30-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ec2/1.10.30/54e65b032e766e7c361ee0cb8f1874d0d8e036a8/aws-java-sdk-ec2-1.10.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-autoscaling/1.9.3/d20aa4f10e1e2eeb983897747424aebc5aeeb84a/aws-java-sdk-autoscaling-1.9.3-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-autoscaling/1.9.3/7343ec060e98e1e520e4d1c17f484c8819b87beb/aws-java-sdk-autoscaling-1.9.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sts/1.9.3/446eef13c194d781911dc6f28bdf0e56d05726cd/aws-java-sdk-sts-1.9.3-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sts/1.9.3/bd67a0a8a09d6461a1ddebd6bb5eb64ee15ab289/aws-java-sdk-sts-1.9.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-route53/1.9.3/767f44bb59c76084d9ed8eba69668675e4c3e86f/aws-java-sdk-route53-1.9.3-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-route53/1.9.3/83d8d24b0fab7ad06df51fe4438e3a1bf68560ea/aws-java-sdk-route53-1.9.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.governator/governator/1.12.5/d5cdaace47a8f2c91ee33c642c7838384cc309ed/governator-1.12.5-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.governator/governator/1.12.5/335d50c72f5bc23c87c4cc1f5cf9a26891e4fa66/governator-1.12.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/woodstox-core-asl/4.4.1/ffa1c21ea3509859bb54d62e3b8254a3263c7fb9/woodstox-core-asl-4.4.1-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/woodstox-core-asl/4.4.1/84fee5eb1a4a1cefe65b6883c73b3fa83be3c1a1/woodstox-core-asl-4.4.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/e4dbd8ad69e07fa7f28688f92d773a429143060b/commons-configuration-1.8-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/6cce40435bcd8018018f16898de01976b319941a/commons-configuration-1.8.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon/2.1.0/dac72fc4f991a23ca37d55810d93be4b24f0313/ribbon-2.1.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon/2.1.0/b123c618c2abd8cf6403bd56ce4a70ffef3eae00/ribbon-2.1.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-core/2.1.0/fbe3cb3a6e987437bfe3ca1dd0ba60df96e4539a/ribbon-core-2.1.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-core/2.1.0/aff1b2f55a679fc6f40ea0683326b531754830cf/ribbon-core-2.1.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-httpclient/2.1.0/6d70c29122d6de54cf4ea5f229617665c968849b/ribbon-httpclient-2.1.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-httpclient/2.1.0/37c838f0a20a4148ec191e4242a7386e167b0987/ribbon-httpclient-2.1.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.1.0/76159f57c71aa8e38009d5d112af19c0f0a40e30/ribbon-loadbalancer-2.1.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.1.0/af69343b5fc0c35303abd70beb2f700968b2986c/ribbon-loadbalancer-2.1.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.14/e7bad33560b6c163b25073e85e3b2f70948da2bc/rxjava-1.0.14-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.14/898f9ab61e2a23afd615f0b0389478bec86f49f9/rxjava-1.0.14.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka2-client-shaded/2.0.0-rc.2/94ed95dd80e60b3b893e6c08c9aa80e23e2a7c84/eureka2-client-shaded-2.0.0-rc.2-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka2-client-shaded/2.0.0-rc.2/f669e8071facea2d9b261f5dfec89ba6f9ce71dd/eureka2-client-shaded-2.0.0-rc.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.3.1/2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa/xmlpull-1.1.3.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/fffe25ec1f20ec1cfdc0edd41c6e0d55bc0dbaf5/xpp3_min-1.1.4c-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/19d4e90b43059058f6e056f794f0ea4030d60b86/xpp3_min-1.1.4c.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.16/ad03b39efb3749be4c8d2eae23d6dee72c889f3b/snakeyaml-1.16-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.16/d64fb662c9e42789149f5078a62a22edda786c6a/snakeyaml-1.16.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.0.30/63de3c69f2a2b972ee12d55bc175cc36424651fc/tomcat-embed-core-8.0.30-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.0.30/87b12667b258d0135f7cf4234030a5ccbb55193f/tomcat-embed-core-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.0.30/ac4a7668ef38ed4e0d0c15a8ad232b75acb2639b/tomcat-embed-el-8.0.30-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.0.30/b97d5ff750126d7fdaf412aeec219306bd157e50/tomcat-embed-el-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-logging-juli/8.0.30/94a91d71cfc9d6beb1c2299d9a2a774893789cef/tomcat-embed-logging-juli-8.0.30-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-logging-juli/8.0.30/c19b5c37e1f67bf58f9726b438d5323411cd43c6/tomcat-embed-logging-juli-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.0.30/f42ebae8e98671483cf2036cfb6a1eccf6e0aad5/tomcat-embed-websocket-8.0.30-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.0.30/84cf6feff7ed4f73689b4fa076cc6ec33851e075/tomcat-embed-websocket-8.0.30.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.2.Final/e99f81c395344c926b514fc4441d23f3cc8b0a33/hibernate-validator-5.2.2.Final-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.2.Final/990905cd9184450c5f3e929ab2566305e3a67fa1/hibernate-validator-5.2.2.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.5.RELEASE/436d3d6181bbf498d8409525b449eb4ed94a2c5f/spring-aop-4.2.5.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.5.RELEASE/858d6c70909b3ce7e07b59fc936f8ccfcd81c0aa/spring-aop-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.5.RELEASE/6135730c939697c15f33f092a64396bb21d6ba0e/spring-beans-4.2.5.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.5.RELEASE/fa992ae40f6fc47117282164e0433b71da385e94/spring-beans-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.5.RELEASE/8bcd5b15133bb5423cdc9f33da7e4ac585fd783a/spring-context-4.2.5.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.5.RELEASE/a75e18322c7b362fe1daa26a245ae672ec0f3138/spring-context-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.5.RELEASE/c55ae1e0e6858098c2b2b22a7a9638d6cd76db8d/spring-expression-4.2.5.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.5.RELEASE/a42bdfb833d0be6c18429aea3fb0fba81f85c6e8/spring-expression-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.3/a69d9a62a693f391ad19d8ac19fa85a7a60cbc7c/logback-core-1.1.3-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.3/e3c02049f2dbbc764681b40094ecf0dcbc99b157/logback-core-1.1.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.4.24/a3fbaa6b6b1190faf85ea746d332ac57423d1fb9/hystrix-core-1.4.24-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.4.24/a60440d69690bf44d72851ee0ad41f0722dd5836/hystrix-core-1.4.24.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-metrics-event-stream/1.4.24/4c69447da4511eda118d8fba7513d4a53a4deb95/hystrix-metrics-event-stream-1.4.24-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-metrics-event-stream/1.4.24/c629c32d97920fe7f0065c6d77ff21d2b0a27d95/hystrix-metrics-event-stream-1.4.24.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-javanica/1.4.24/28065b406283abbed1a3facf1d46beb2b049ff3b/hystrix-javanica-1.4.24-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-javanica/1.4.24/f7626aad52b649abbe24685ab45204edf0909eec/hystrix-javanica-1.4.24.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-commons-util/0.1.1/2a3547fdc8270169dedb48da2d8be3c5329d09c9/netflix-commons-util-0.1.1-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-commons-util/0.1.1/39e67061780476f207b31465baaed84a91ff659f/netflix-commons-util-0.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-core/2.4.0/1a66edd5247a94bace6bb71fb0473535974e832c/springfox-core-2.4.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-core/2.4.0/e11854b8ede27b6eafa56c29e08e6a0e7ac4c278/springfox-core-2.4.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/611a57d836e2c320d59f9851d4ad587f3c8472e/objenesis-2.1-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.1/87c0ea803b69252868d09308b4618f766f135a96/objenesis-2.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/4.0.3.RELEASE/b7414f877d070e916136a0a222e9c335dc99ff47/spring-security-crypto-4.0.3.RELEASE-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/4.0.3.RELEASE/46802f89ed4b7894b527058aeaeeab7fba53276a/spring-security-crypto-4.0.3.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/stax/stax-api/1.0.1/49c100caf72d658aca8e58bd74a4ba90fa2b0d70/stax-api-1.0.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-internal/0.10.1/16676324669618e73be2a0e2e6cfea3dd1bd1b43/servo-internal-0.10.1-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-internal/0.10.1/bb6f9cd7b309189bad01b93a806ba9d6cb5d915a/servo-internal-0.10.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.governator/governator-api/1.12.5/73a3da4945c2270db7a5fa4e28032ffefd43f6df/governator-api-1.12.5-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.governator/governator-api/1.12.5/254c0f847a24e8a8fc0b4247c810f7adce31802d/governator-api-1.12.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.governator/governator-core/1.12.5/7452e551a2fd3eae5dc348858d07b6b874b09c97/governator-core-1.12.5-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.governator/governator-core/1.12.5/ea5e1c06eb5292909b78ba41281c8ca385672fa6/governator-core-1.12.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/112ff54474f1f04ccf1384c92e39fdc566f0bb5e/asm-5.0.4-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/da08b8cce7bbf903602a25a3a163ae252435795/asm-5.0.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/javax.xml.stream/stax-api/1.0-2/dd58a0151c110e27c6c18abd45b01792f46d3fcd/stax-api-1.0-2-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/javax.xml.stream/stax-api/1.0-2/d6337b0de8b25e53e81b922352fbea9f9f57ba0b/stax-api-1.0-2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/b40604d61c01cc081a4a7bdfc562aa9847ee8857/stax2-api-3.1.4-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/ac19014b1e6a7c08aad07fe114af792676b685b7/stax2-api-3.1.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-transport/2.1.0/2670b5bb8f51795d3bf62577ed5db114bed41723/ribbon-transport-2.1.0-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-transport/2.1.0/68fbfce8990c96c666ff085380c8964e431f9466/ribbon-transport-2.1.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty/0.4.9/e994f91f231c9301e23cb1eaee8c3aaa2abf61d8/rxnetty-0.4.9-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty/0.4.9/5aff3c9d6bb9d9066c378bb3d2a4413ed1773bcf/rxnetty-0.4.9.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-statistics/0.1.1/7ecc2c3a08052a6953d5e69f6f24ed730d9d0969/netflix-statistics-0.1.1-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-statistics/0.1.1/12f6e48253f9cafa0e24d7d232ff504c52143212/netflix-statistics-0.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.0.29.Final/36fe05c138791a185a05590325ca3a77a85b42bb/netty-transport-native-epoll-4.0.29.Final-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.0.29.Final/34cb1e1e43039fc93d41573a6ae533eaa6c2ea5/netty-transport-native-epoll-4.0.29.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3625e6818158ddb4754fa2ec51299e5f57e596b4/jboss-logging-3.3.0.Final-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3616bb87707910296e2c195dc016287080bba5af/jboss-logging-3.3.0.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.8/bb30663f0de5967f6a1950578680d04f1fa50992/aspectjweaver-1.8.8-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.8/969c8d3d3d56db1e1c8721a03ef07d0c9ac3a2e4/aspectjweaver-1.8.8.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/8d30b90ae8bda4fbac8363161c8a9b5a99e23baf/commons-lang3-3.1-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.9/3085ad53421b7c6e3bf1ab78a1c6599a6fc92c6b/rxnetty-contexts-0.4.9-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.9/6efe17a25602a5424c18ab975aa9c28b6d6b7f56/rxnetty-contexts-0.4.9.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-servo/0.4.9/a024f33a03f6d1da6e4a4330db124ec7e126f38d/rxnetty-servo-0.4.9-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-servo/0.4.9/b7d6d6e132686c280f16710eaa3e90719f6808f8/rxnetty-servo-0.4.9.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.0.27.Final/dc0098071bfc67bb4258a954f39f6cbcd800971d/netty-codec-http-4.0.27.Final-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.0.27.Final/59b04b31b58942615c0035c61db1167d118ee218/netty-codec-http-4.0.27.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.0.27.Final/cb65f1d21471f58896ae5c82955abd0e9501bfc3/netty-codec-4.0.27.Final-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.0.27.Final/8ed3790b480d4370d22ad1b74a79a54663619b3/netty-codec-4.0.27.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.0.27.Final/83a33b2d9448f51e95d678f7dc0099d2ba552b78/netty-handler-4.0.27.Final-sources.jar" kind="lib" path="/Users/gvarghese/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.0.27.Final/91d5c8e25150759bdfce680f318e7b3e8a493b1f/netty-handler-4.0.27.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+</classpath>
